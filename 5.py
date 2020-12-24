@@ -1,0 +1,13 @@
+str1="Champion"
+str1=str1.casefold()
+print(str1)
+print(str1.center(20))
+print(str1.count("ch"))
+print(str1.endswith("on"))
+str2='1234'
+str2=str2.join(str1)
+print(str2)
+print(str2.rjust(12))
+print(str1.partition('am'))
+print(str1.swapcase())
+print(str1.split('a'))

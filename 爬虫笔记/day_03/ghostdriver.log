@@ -1,0 +1,37 @@
+[INFO  - 2020-12-08T04:12:48.018Z] GhostDriver - Main - running on port 16929
+[INFO  - 2020-12-08T04:12:52.418Z] Session [a40497c0-390b-11eb-b02f-21a61a89e15f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-12-08T04:12:52.418Z] Session [a40497c0-390b-11eb-b02f-21a61a89e15f] - page.customHeaders:  - {}
+[INFO  - 2020-12-08T04:12:52.418Z] Session [a40497c0-390b-11eb-b02f-21a61a89e15f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-12-08T04:12:52.418Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a40497c0-390b-11eb-b02f-21a61a89e15f
+[ERROR - 2020-12-08T04:12:53.944Z] Session [a40497c0-390b-11eb-b02f-21a61a89e15f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign(this,{host:a,pass:u,path:f,projectId:l,port:c,protocol:e,user:i})')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-08T04:12:53.944Z] Session [a40497c0-390b-11eb-b02f-21a61a89e15f] - page.onError - stack:
+  J (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  t (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  t (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  t (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  n (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  pt (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  t (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  n (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  t (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  n (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  initAndBind (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  init (https://static-jw.msstatic.com/huya-sentry/bundle.min.js:2)
+  (anonymous function) (https://www.huya.com/l:4163)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-08T04:12:56.265Z] Session [a40497c0-390b-11eb-b02f-21a61a89e15f] - page.onError - msg: TypeError: Attempting to change access mechanism for an unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-08T04:12:56.266Z] Session [a40497c0-390b-11eb-b02f-21a61a89e15f] - page.onError - stack:
+  defineProperty (https://a.msstatic.com/huya/main3/common/polyfill_ba01f.js:1)
+  J (https://a.msstatic.com/huya/main3/common/polyfill_ba01f.js:1)
+  (anonymous function) (https://a.msstatic.com/huya/hd/cdn_libs/performance_report-min.js?v=2020%E5%B9%B412%E6%9C%888%E6%97%A5:5)
+  (anonymous function) (https://a.msstatic.com/huya/hd/cdn_libs/performance_report-min.js?v=2020%E5%B9%B412%E6%9C%888%E6%97%A5:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-12-08T04:16:04.704Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1607400964674
+
+  phantomjs://platform/console++.js:263 in error
